@@ -73,6 +73,10 @@ class StudentController extends AbstractController
             $entityManager->flush();
 
 
+            // thong bao
+            $this->addFlash('add', 'Add Student Success');
+
+
             $response = new RedirectResponse('/student/show');
             $response->prepare($request);
 
@@ -211,6 +215,11 @@ class StudentController extends AbstractController
             $entityManager->flush();
 
 
+
+            // thong bao
+            $this->addFlash('update', 'Update a  Student Success');
+
+
             $response = new RedirectResponse('/student/show');
             $response->prepare($request);
 
@@ -241,7 +250,13 @@ class StudentController extends AbstractController
         $entityManager->flush();
 
 
-        return new Response('delete success!!!!! ');
+        // thong bao
+        $this->addFlash('notice', 'Delete Student Success');
+
+        return $this->redirectToRoute('customer_view');
+
+
+       // return new Response('delete success!!!!! ');
 
         // or render a template
         // in the template, print things with {{ product.name }}

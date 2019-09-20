@@ -73,9 +73,52 @@ class __TwigTemplate_7cb476ccf2d878859d6b700042093b79f6bbfe2c640699b83b687a9c38e
 
   <div class=\"container\">
 
-      <div class=\"alert alert-success\">
-          <strong>Fill in successs!!!!</strong> You can comback <a href=\"http://localhost:8000/customer/add\" class=\"alert-link\">form in order to add new customer</a>.
-      </div>
+      ";
+        // line 34
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 34, $this->source); })()), "session", [], "any", false, false, false, 34), "flashbag", [], "any", false, false, false, 34), "get", [0 => "notice"], "method", false, false, false, 34));
+        foreach ($context['_seq'] as $context["_key"] => $context["mess"]) {
+            // line 35
+            echo "          <div class=\"alert alert-warning\">";
+            echo twig_escape_filter($this->env, $context["mess"], "html", null, true);
+            echo "</div>
+      ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['mess'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 37
+        echo "
+      ";
+        // line 38
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 38, $this->source); })()), "session", [], "any", false, false, false, 38), "flashbag", [], "any", false, false, false, 38), "get", [0 => "update"], "method", false, false, false, 38));
+        foreach ($context['_seq'] as $context["_key"] => $context["mess"]) {
+            // line 39
+            echo "          <div class=\"alert alert-primary\">";
+            echo twig_escape_filter($this->env, $context["mess"], "html", null, true);
+            echo "</div>
+      ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['mess'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 41
+        echo "      ";
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 41, $this->source); })()), "session", [], "any", false, false, false, 41), "flashbag", [], "any", false, false, false, 41), "get", [0 => "add"], "method", false, false, false, 41));
+        foreach ($context['_seq'] as $context["_key"] => $context["mess"]) {
+            // line 42
+            echo "          <div class=\"alert alert-info\">";
+            echo twig_escape_filter($this->env, $context["mess"], "html", null, true);
+            echo "</div>
+      ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['mess'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 44
+        echo "
 
 
       <hr>
@@ -93,37 +136,37 @@ class __TwigTemplate_7cb476ccf2d878859d6b700042093b79f6bbfe2c640699b83b687a9c38e
               </thead>
 
               ";
-        // line 53
-        if ((twig_length_filter($this->env, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 53, $this->source); })())) > 0)) {
-            // line 54
+        // line 61
+        if ((twig_length_filter($this->env, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 61, $this->source); })())) > 0)) {
+            // line 62
             echo "
               ";
-            // line 55
+            // line 63
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(range(0, (twig_length_filter($this->env, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 55, $this->source); })())) - 1)));
+            $context['_seq'] = twig_ensure_traversable(range(0, (twig_length_filter($this->env, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 63, $this->source); })())) - 1)));
             foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-                // line 56
+                // line 64
                 echo "
               <tr>
                   <td>";
-                // line 58
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 58, $this->source); })()), $context["i"], [], "array", false, false, false, 58), "id", [], "any", false, false, false, 58), "html", null, true);
+                // line 66
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 66, $this->source); })()), $context["i"], [], "array", false, false, false, 66), "id", [], "any", false, false, false, 66), "html", null, true);
                 echo "</td>
                   <td>";
-                // line 59
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 59, $this->source); })()), $context["i"], [], "array", false, false, false, 59), "mssv", [], "any", false, false, false, 59), "html", null, true);
+                // line 67
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 67, $this->source); })()), $context["i"], [], "array", false, false, false, 67), "mssv", [], "any", false, false, false, 67), "html", null, true);
                 echo "</td>
                   <td> <a href=\"http://localhost:8000/student/detail/";
-                // line 60
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 60, $this->source); })()), $context["i"], [], "array", false, false, false, 60), "id", [], "any", false, false, false, 60), "html", null, true);
+                // line 68
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 68, $this->source); })()), $context["i"], [], "array", false, false, false, 68), "id", [], "any", false, false, false, 68), "html", null, true);
                 echo "\"> ";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 60, $this->source); })()), $context["i"], [], "array", false, false, false, 60), "name", [], "any", false, false, false, 60), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 68, $this->source); })()), $context["i"], [], "array", false, false, false, 68), "name", [], "any", false, false, false, 68), "html", null, true);
                 echo "  </a></td>
                   <td class=\"text-center\"><a class='btn btn-info btn-xs' href=\"http://localhost:8000/student/edit/";
-                // line 61
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 61, $this->source); })()), $context["i"], [], "array", false, false, false, 61), "id", [], "any", false, false, false, 61), "html", null, true);
+                // line 69
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 69, $this->source); })()), $context["i"], [], "array", false, false, false, 69), "id", [], "any", false, false, false, 69), "html", null, true);
                 echo "\"><span class=\"glyphicon glyphicon-edit\"></span> Edit</a> <a href=\"http://localhost:8000/Student/delete/";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 61, $this->source); })()), $context["i"], [], "array", false, false, false, 61), "id", [], "any", false, false, false, 61), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 69, $this->source); })()), $context["i"], [], "array", false, false, false, 69), "id", [], "any", false, false, false, 69), "html", null, true);
                 echo "\" class=\"btn btn-danger btn-xs\"><span class=\"glyphicon glyphicon-remove\"></span> Del</a></td>
               </tr>
 
@@ -132,10 +175,10 @@ class __TwigTemplate_7cb476ccf2d878859d6b700042093b79f6bbfe2c640699b83b687a9c38e
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 65
+            // line 73
             echo "              ";
         }
-        // line 66
+        // line 74
         echo "
 
           </table>
@@ -143,8 +186,8 @@ class __TwigTemplate_7cb476ccf2d878859d6b700042093b79f6bbfe2c640699b83b687a9c38e
 
           <div class=\"navigation\">
               ";
-        // line 72
-        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 72, $this->source); })()));
+        // line 80
+        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["appointments"]) || array_key_exists("appointments", $context) ? $context["appointments"] : (function () { throw new RuntimeError('Variable "appointments" does not exist.', 80, $this->source); })()));
         echo "
           </div>
 
@@ -192,7 +235,7 @@ class __TwigTemplate_7cb476ccf2d878859d6b700042093b79f6bbfe2c640699b83b687a9c38e
 
     public function getDebugInfo()
     {
-        return array (  147 => 72,  139 => 66,  136 => 65,  124 => 61,  118 => 60,  114 => 59,  110 => 58,  106 => 56,  102 => 55,  99 => 54,  97 => 53,  43 => 1,);
+        return array (  190 => 80,  182 => 74,  179 => 73,  167 => 69,  161 => 68,  157 => 67,  153 => 66,  149 => 64,  145 => 63,  142 => 62,  140 => 61,  121 => 44,  112 => 42,  107 => 41,  98 => 39,  94 => 38,  91 => 37,  82 => 35,  78 => 34,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -230,9 +273,17 @@ class __TwigTemplate_7cb476ccf2d878859d6b700042093b79f6bbfe2c640699b83b687a9c38e
 
   <div class=\"container\">
 
-      <div class=\"alert alert-success\">
-          <strong>Fill in successs!!!!</strong> You can comback <a href=\"http://localhost:8000/customer/add\" class=\"alert-link\">form in order to add new customer</a>.
-      </div>
+      {% for mess in app.session.flashbag.get('notice') %}
+          <div class=\"alert alert-warning\">{{ mess }}</div>
+      {% endfor %}
+
+      {% for mess in app.session.flashbag.get('update') %}
+          <div class=\"alert alert-primary\">{{ mess }}</div>
+      {% endfor %}
+      {% for mess in app.session.flashbag.get('add') %}
+          <div class=\"alert alert-info\">{{ mess }}</div>
+      {% endfor %}
+
 
 
       <hr>

@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9328238-c48b-4ce8-b8f9-8d37f2a01767" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/student.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/student.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/StudentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/student/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/detail.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/student/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/3/4/a1pkOIh5dXYIyOzLuJuA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/3/4/a1pkOIh5dXYIyOzLuJuA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/J/J/13wu0qQ95SYz81V8-XDA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/J/J/13wu0qQ95SYz81V8-XDA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/L/Q/jNss2RaCmVRynGAcmd2Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/L/Q/jNss2RaCmVRynGAcmd2Q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/Q/E/Xts+o3p331kVdITmi0bw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/Q/E/Xts+o3p331kVdITmi0bw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/R/+/ZmYBHCdb+1s1zKhuJcOQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/R/+/ZmYBHCdb+1s1zKhuJcOQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/X/C/Re0XGLdAOKr+A+h4gYag" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/9KX+UaZfEC/X/C/Re0XGLdAOKr+A+h4gYag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/41/419d3603ddd9804b3338d188b33f4c64a065cacaa65634ed6c61af1ee654ddb0.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/41/419d3603ddd9804b3338d188b33f4c64a065cacaa65634ed6c61af1ee654ddb0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/73/73636c464b5aae7e817ba57732bea05680c98089c497dc46bbe9ebf9803a802e.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/73/73636c464b5aae7e817ba57732bea05680c98089c497dc46bbe9ebf9803a802e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +181,8 @@
       <workItem from="1568860023412" duration="18199000" />
       <workItem from="1568889036585" duration="3302000" />
       <workItem from="1568945346436" duration="658000" />
-      <workItem from="1568946349869" duration="1648000" />
+      <workItem from="1568946349869" duration="3008000" />
+      <workItem from="1568961139213" duration="1856000" />
     </task>
     <servers />
   </component>

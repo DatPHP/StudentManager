@@ -125,7 +125,7 @@ class __TwigTemplate_771d3047e4ef3dec26f244e743c99d25d4009c9212101a6387979926dcc
     <div class=\"row\">
         <ul class=\"links\">
             <li><a href=\"\" title=\"Food & Beverages\">
-                    <span class=\"icon\"><i class=\"fa fa-id\"></i></span>
+                    <span class=\"icon\"><i class=\"fa fa-circle \"></i></span>
                     <span class=\"text\">";
         // line 87
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["student"]) || array_key_exists("student", $context) ? $context["student"] : (function () { throw new RuntimeError('Variable "student" does not exist.', 87, $this->source); })()), "mssv", [], "any", false, false, false, 87), "html", null, true);
@@ -160,7 +160,7 @@ class __TwigTemplate_771d3047e4ef3dec26f244e743c99d25d4009c9212101a6387979926dcc
 
 
             <li><a href=\"\" title=\"Banking & Insurance apps\">
-                    <span class=\"icon\"><i class=\"fa fa-car\"></i></span>
+                    <span class=\"icon\"><i class=\"fa fa-home \"></i></span>
                     <span class=\"text\">";
         // line 110
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["student"]) || array_key_exists("student", $context) ? $context["student"] : (function () { throw new RuntimeError('Variable "student" does not exist.', 110, $this->source); })()), "address", [], "any", false, false, false, 110), "html", null, true);
@@ -290,7 +290,7 @@ class __TwigTemplate_771d3047e4ef3dec26f244e743c99d25d4009c9212101a6387979926dcc
     <div class=\"row\">
         <ul class=\"links\">
             <li><a href=\"\" title=\"Food & Beverages\">
-                    <span class=\"icon\"><i class=\"fa fa-id\"></i></span>
+                    <span class=\"icon\"><i class=\"fa fa-circle \"></i></span>
                     <span class=\"text\">{{ student.mssv }}</span></a>
                 <div class=\"clearfix\"></div>
             </li>
@@ -313,7 +313,7 @@ class __TwigTemplate_771d3047e4ef3dec26f244e743c99d25d4009c9212101a6387979926dcc
 
 
             <li><a href=\"\" title=\"Banking & Insurance apps\">
-                    <span class=\"icon\"><i class=\"fa fa-car\"></i></span>
+                    <span class=\"icon\"><i class=\"fa fa-home \"></i></span>
                     <span class=\"text\">{{ student.address }}</span></a>
                 <div class=\"clearfix\"></div>
             </li>

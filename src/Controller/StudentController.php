@@ -15,11 +15,18 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 
+
+
 use Symfony\Component\Form\Extension\Core\Type\FormType;
 
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\Routing\Annotation\Route;
+
+
+// Pagination
+
+use Knp\Component\Pager\PaginatorInterface;
 
 class StudentController extends AbstractController
 {
@@ -80,15 +87,42 @@ class StudentController extends AbstractController
     /**
      * @Route("/student/show", name="customer_view")
      */
-    public function index()
+    public function index(Request $request, PaginatorInterface $paginator)
     {
 
         $student = $this->getDoctrine()
             ->getRepository(Student::class)
            -> findAll();
 
-        return $this->render('student/index.html.twig',['student'=>$student]);
 
+
+
+
+
+
+        // Retrieve the entity manager of Doctrine
+        $em = $this->getDoctrine()->getManager();
+
+        // Get some repository of data, in our case we have an Appointments entity
+        $appointmentsRepository = $em->getRepository(Student::class);
+
+        // Find all the data on the Appointments table, filter your query as you need
+        $allAppointmentsQuery = $appointmentsRepository->findAll();
+
+        // Paginate the results of the query
+        $appointments = $paginator->paginate(
+        // Doctrine Query, not results
+            $allAppointmentsQuery,
+            // Define the page parameter
+            $request->query->getInt('page', 1),
+            // Items per page
+            4
+        );
+
+        // Render the twig view
+        return $this->render('student/index.html.twig', [
+            'appointments' => $appointments
+        ]);
     }
 
 

@@ -50,15 +50,15 @@
               </tr>
               </thead>
 
-              {% if student|length > 0 %}
+              {% if appointments|length > 0 %}
 
-              {% for i in range(0, (student|length - 1)) %}
+              {% for i in range(0, (appointments|length - 1)) %}
 
               <tr>
-                  <td>{{ student[i].id }}</td>
-                  <td>{{ student[i].mssv }}</td>
-                  <td> <a href="http://localhost:8000/student/detail/{{ student[i].id }}"> {{ student[i].name }}  </a></td>
-                  <td class="text-center"><a class='btn btn-info btn-xs' href="http://localhost:8000/student/edit/{{ student[i].id }}"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="http://localhost:8000/Student/delete/{{ student[i].id }}" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                  <td>{{ appointments[i].id }}</td>
+                  <td>{{ appointments[i].mssv }}</td>
+                  <td> <a href="http://localhost:8000/student/detail/{{ appointments[i].id }}"> {{ appointments[i].name }}  </a></td>
+                  <td class="text-center"><a class='btn btn-info btn-xs' href="http://localhost:8000/student/edit/{{ appointments[i].id }}"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="http://localhost:8000/Student/delete/{{ appointments[i].id }}" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
               </tr>
 
               {% endfor %}
@@ -66,6 +66,15 @@
 
 
           </table>
+
+
+          <div class="navigation">
+              {{ knp_pagination_render(appointments) }}
+          </div>
+
+
+
+
       </div>
   </div>
 

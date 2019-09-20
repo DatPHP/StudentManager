@@ -178,9 +178,9 @@ class StudentController extends AbstractController
 
 
         $form = $formFactory->createBuilder(FormType::class, $defaults)
-            ->add('mssv',TextType::class)
-            ->add('name', TextType::class)
-            ->add('email', EmailType::class)
+            ->add('mssv',TextType::class, ['attr' => ['maxlength' => 10]])
+            ->add('name', TextType::class,  ['attr' => ['maxlength' => 30]])
+            ->add('email', EmailType::class, ['attr' => ['maxlength' => 50]])
             ->add('phone',TextType::class)
             ->add('address', TextType::class)
             ->add('send', SubmitType::class)

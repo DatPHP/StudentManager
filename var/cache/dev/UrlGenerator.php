@@ -15,6 +15,8 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception::showAction'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception::cssAction'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
+    'app_login' => [[], ['_controller' => 'App\\Controller\\SecurityController::login'], [], [['text', '/login']], [], []],
+    'security' => [[], ['_controller' => 'App\\Controller\\SecurityController::index'], [], [['text', '/security']], [], []],
     'customer' => [[], ['_controller' => 'App\\Controller\\StudentController::add'], [], [['text', '/student/add']], [], []],
     'customer_view' => [[], ['_controller' => 'App\\Controller\\StudentController::index'], [], [['text', '/student/show']], [], []],
     'app_student_update' => [['id'], ['_controller' => 'App\\Controller\\StudentController::update'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/student/edit']], [], []],
